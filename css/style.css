@@ -368,9 +368,9 @@ footer{
     font-size:2rem;
     padding: 2rem;
 }
-.footer-content{
-    /*overflow: hidden;*/
-}
+/*.footer-content{
+    overflow: hidden;
+}*/
 
 .footer-content h4{
     font-size: 1.9rem;
