@@ -551,6 +551,51 @@ h1::after{
     padding: 15px;
     box-sizing: border-box;
 }
+/*contact us*/
+.contact-hero{
+    width: 100%;
+    height: 30vh;
+    background: url("../images/contact-hero.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contact-container{
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+.contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #121212;
+
+}
+.contact-left{
+    height: 100%;
+    background: url("../images/brunch.jpg") no-repeat center;
+    background-size: cover;
+}
+/*blog*/
+.blog-hero{
+    width: 100%;
+    height: 65vh;
+    background: url("../images/blog-hero2.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 /*footer*/
 footer{
