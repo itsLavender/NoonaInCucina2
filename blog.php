@@ -26,7 +26,7 @@
                </div>
                    <div class="single-animation">
                        <h5>Add a new recipe</h5>
-                       <a href="../NoonaInCucina2/add/addrecipe.php" class="btn cta-btn">Add</a>
+                       <a href="addrecipes.php" class="btn cta-btn">Add</a>
                    </div>
                </div>
            </div>
