@@ -578,13 +578,33 @@ h1::after{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #121212;
+    background-color:#e47676  ;
 
 }
 .contact-left{
     height: 100%;
-    background: url("../images/brunch.jpg") no-repeat center;
+    background: url("../images/sweetes.jpg") no-repeat center;
     background-size: cover;
+}
+.contact-right{
+    padding: 25px 40px;
+}
+.contact-right h2{
+    position: relative;
+    padding-bottom:10px ;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.contact-right h2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color:  #9f2dd4;
 }
 /*blog*/
 .blog-hero{
