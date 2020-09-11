@@ -638,7 +638,7 @@ h1::after{
     color: #fff;
     transition: .3s;
 }
-.btn:hover{
+.contact-btn:hover{
     background-color: #e73cbc;
 }
 /*blog*/
