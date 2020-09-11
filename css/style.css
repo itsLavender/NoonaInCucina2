@@ -596,7 +596,61 @@ h1::after{
     align-items: center;
     text-align: center;
 }
+.blog-container{
+    width: 1000px;
+    margin: 70px auto 0;
+    display: flex;
+}
+.blog-container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background:var(--body-font-color);
+    margin: 20px;
+    box-sizing: border-box;
+    display: inline-block;
 
+}
+*.blog-container .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+.blog-container .box .imgBox img{
+     object-fit: cover;
+     width: 300px;
+     height: 300px;
+     transition: transform 2s;
+     }
+.blog-container .box:hover .imgBox img{
+    transform: scale(1.2);
+}
+.blog-container .box .detalis{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    bottom: 10px;
+    right: 10px;
+    background:rgba(0, 0, 0, .8) ;
+    transform: scaleY(0);
+    transition:transform .5s ;
+}
+.blog-container .box:hover .detalis{
+    transform: scaleY(1);
+
+}
+.blog-container .box .detalis .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    color: var(--main-font-color-dark);
+}
+.blog-container .box .detalis .content h2{
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff ;
+}
 /*footer*/
 footer{
     padding: 7.9rem;

@@ -41,5 +41,5 @@
                 <input type="submit" name = "submit" value = "Add recipe">
             </form>
         </div>
-        </body>
+         </body>
 </html>
