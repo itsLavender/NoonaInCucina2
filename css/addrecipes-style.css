@@ -1,31 +1,80 @@
 *{
-    padding:0;
+    padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
 }
-
 body{
-    width: 100%;
-    height: 100vh;
+    background-image:url(../images/background.jpeg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
 }
 .container{
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 20px 100px;
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: #dedede;
+    border-radius: 5px;
 }
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #130f40;
+}
+.addrecipes_form{
+    padding: 20px 40px;
+}
+.addrecipes_form .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+}
+.addrecipes_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.addrecipes_form .font2{
+    margin-top: 30px;
+}
+/*.addrecipes_form p{
+    font-size: 18px;
+    color: #130f40;
+}*/
+/*.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #1A237E;
+    border-radius: 3px;
+    border: 1px solid #3949AB;
+}
+.login_form button:hover{
+    background: #151c6a;
+}*/
 
-.container:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width:100%;
-    height: 100%;
-    background:url("../images/menu-group-1.jpg") no-repeat center;
-    background-size: cover;
-}
+/*.login_form #password_error,
+.login_form #email_error
+{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #C62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}*/

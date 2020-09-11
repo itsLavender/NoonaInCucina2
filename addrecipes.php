@@ -18,7 +18,7 @@
             </div>
         </div>
 </section>-->
-<section class="form">
+<!--<section class="form">
     <div class="container">
         <div class="recipe-box">
             <div class="add-left"></div>
@@ -32,7 +32,21 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
-    </body>
+   
+<div class="container">
+            <h1 class="label">Add new recipe</h1>
+            <form class="addrecipes_form" method="POST" action = "addrecipes.php">
+                <div class="font">Title</div>
+                <input type="text" name="title">
+                <div class="font font2">Category</div>
+                <input type="text" name="category">
+                <div class="font">Image</div>
+                <input type="text" name="image">
+                <textarea class="body" rows="4" cols="50" placeholder="Recipe ingredients"></textarea>
+                <input type="submit" name = "submit" value = "Add recipe">
+            </form>
+        </div>
+        </body>
 </html>

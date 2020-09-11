@@ -33,10 +33,12 @@
        </div>
    </section>
    <!--blog hero ends-->
-  <section class="blog-container">
+  <section class="blog">
+      <div class="blog-container">
    <div class="box-container">
-       <div class="box">
-           <img src=>
+       <div class="box-content">
+           <img src="">
+           </div>
 
        </div>
    </div>
