@@ -33,7 +33,13 @@
        </div>
    </section>
    <!--blog hero ends-->
-<div class="blog-container">
+<section class="categories">
+   <div class="global-headline">
+        <h2 class="sub-headline">
+           <h1 class="recipe-headline headline-dark">Some of our food categories</h1>
+        </h2>
+       </div>
+  <div class="blog-container">
     <div class="box">
         <div class="imgBox">
         <img src="images/pasta.jpg">
@@ -65,6 +71,7 @@
         </div>
     </div>
 </div>
+</section>
 <!--food categories ends-->
 <!-- Footer include -->
 <?php include 'includes/footer.php'; ?>
