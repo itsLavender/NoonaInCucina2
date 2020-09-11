@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link rel="stylesheet" href="../css/login-style.css">
+        <link rel="stylesheet" href="css/login-style.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <title>Add new recipe</title>
     </head>
