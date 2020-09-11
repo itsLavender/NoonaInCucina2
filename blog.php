@@ -1,3 +1,10 @@
+<?php 
+        require 'includes/dbconnect.php';
+
+        $query = $pdo->query('SELECT * from posts inner join recipe_category on recipe_category.category_id = posts.category_id');
+        $recipesdata = $query->fetchAll();
+   ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,8 +39,16 @@
            </div>
        </div>
    </section>
+   <div class="bl">
+        <?php foreach($recipesdata as $recipes): ?>
+                <h2><?php echo $recipes['posts_title']; ?></h2>
+                <p><?php echo $recipes['posts_body']; ?></p>
+                <img src="<?php echo $recipes['image']; ?>"/>
+                <h4><?php echo $recipes['category_name']; ?></h4>
+    </div>
+        <?php endforeach; ?>
    <!--blog hero ends-->
-<div class="blog-container">
+<!--<div class="blog-container">
     <div class="box">
         <div class="imgBox">
         <img src="images/pasta.jpg">
@@ -64,7 +79,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <!--food categories ends-->
 <!-- Footer include -->
 <?php include 'includes/footer.php'; ?>

@@ -22,6 +22,7 @@
 
 <!DOCTYPE HTML>
 <html>
+    
     <head>
         <link rel="stylesheet" href="css/login-style.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -32,12 +33,13 @@
             <h1 class="label">Add new recipe</h1>
             <form class="addrecipes_form" method="POST" action = "addrecipes.php">
                 <div class="font">Title</div>
-                <input type="text" name="title">
-                <textarea name="body" rows="4" cols="50" placeholder="Recipe ingredients"></textarea>
+                <input type="text" name="title"><br>
+                <div class="font">Ingredients:</div>
+                <textarea name="body" rows="4" cols="50" placeholder="Recipe ingredients"></textarea><br>
                 <div class="font">Image</div>
-                <input type="text" name="image">
+                <input type="text" name="image"><br>
                 <div class="font ">Category</div>
-                <input type="text" name="kategoria">               
+                <input type="text" name="kategoria">  <br>             
                 <input type="submit" name = "submit" value = "Add recipe">
             </form>
         </div>
