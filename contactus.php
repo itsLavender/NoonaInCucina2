@@ -27,7 +27,7 @@
                 <input type="email" class="field" placeholder="Your Email">
                 <input type="text" class="field" placeholder="Your Phone">
                 <textarea class="field area" placeholder="Message"></textarea>
-                <button class="btn">Send</button>
+                <button class="contact-btn">Send</button>
             </div>
         </div>
     </div>
