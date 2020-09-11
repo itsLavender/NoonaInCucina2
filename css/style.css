@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
 /*Global styles*/
 *,
@@ -553,7 +552,7 @@ footer{
     }
 }
 
-=======
+
 @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
 /*Global styles*/
 *,
@@ -937,10 +936,10 @@ footer{
     padding: 2rem;
     animation: up 2s infinite;
 }
-.footer-content{
-    /*overflow: hidden;*/
+/*.footer-content{
+    overflow: hidden;
 }
-
+*/
 .footer-content h4{
     font-size: 1.9rem;
     text-transform: uppercase;
@@ -1605,9 +1604,9 @@ footer{
     font-size:2rem;
     padding: 2rem;
 }
-.footer-content{
-    /*overflow: hidden;*/
-}
+/*.footer-content{
+    overflow: hidden;
+}*/
 
 .footer-content h4{
     font-size: 1.9rem;
@@ -1788,7 +1787,7 @@ footer{
         transform: scale(1);
     }
 }
-}
+
 @keyframes grow{
     0%{
         width: 0;
@@ -1844,4 +1843,4 @@ footer{
         transform:scale(1.3);
     }
 }
->>>>>>> 8c2592f765e4ff5dc732d5b4bd3a9c060d38d7dd
+

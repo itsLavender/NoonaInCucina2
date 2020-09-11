@@ -10,35 +10,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav class="nav">
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
-                </div>
-                <a href="index.html" class="logo"><img src="images/NoonaInCucinaLogo.png" alt=""> </a>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="aboutus.html" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Recipes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-     <!---- Header ends-->
+    <!---- Header include -->
+
+    <?php include 'includes/header.php'; ?>
+    
    <section class="about-hero" id="about-hero">
     <div class="container">
         <h2 class="sub-headline">
@@ -133,6 +108,7 @@
             </div>
         </div>
         <!--slideshow ends-->
-      
+      <!-- Footer include -->
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
