@@ -22,7 +22,7 @@
                         <a href="recipes.php" class="nav-link">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link">Gallery</a>
+                        <a href="blog.php" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="contactus.php" class="nav-link">Contact</a>
