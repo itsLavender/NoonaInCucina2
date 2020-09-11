@@ -109,6 +109,77 @@
             </div>
         </div>
         <!--slideshow ends-->
+        <div class="team">
+                <div class="container">
+                <div class="global-headline">
+            <div class="animate-top">
+                <h2 class="sub-headline">
+                    <span class="first-letter">O</span>ur
+                </h2>
+            </div>
+            <div class="animate-bottom">
+                <h1 class="headline headline-dark">Team</h1>
+            </div>
+           </div>
+                   <div class="row">
+                          <div class="col-md-3 profile text-center">
+                                <div class="img-box">
+                                   <img src ="images/Amninder Sandhu.jpg" class="img-responsive">
+                                    <ul>
+                                         <a href="#"><i class="fab fa-twitter"></i></a>
+                                         <a href="#"><i class="fab fa-facebook"></i></a>
+                                         <a href="#"><i class="fab fa-instagram"></i></a>
+                                     </ul>
+                                </div>
+                                <h2>Amninder Sandhu</h2>
+                                <h3>Chef</h3>
+                                    <p> Amninder Sandhu is the Chef at Arth, the first gas-free restaurant in India that embraces ethnic Indian methods of slow cooking over wood fire and charcoal. 
+                                    She is a winner of the national award, presented by the Ministry of Tourism, for Best Lady Chef.</p>
+                          </div>
+                          <div class="col-md-3 profile text-center">
+                                <div class="img-box">
+                                   <img src ="images/Jordi Roca.jpg" class="img-responsive">
+                                    <ul>
+                                         <a href="#"><i class="fab fa-twitter"></i></a>
+                                         <a href="#"><i class="fab fa-facebook"></i></a>
+                                         <a href="#"><i class="fab fa-instagram"></i></a>
+                                     </ul>
+                                </div>
+                                <h2>Jordi Roca</h2>
+                                <h3> Pastry Chef</h3>
+                                    <p> Jordi Roca i Fontané is the pastry chef of the restaurant El Celler de Can Roca. In 2014 he won the inaugural "World's Best Pastry Chef" award from Restaurant magazine. 
+                                    In April 2018, an episode of Chef's Table: Pastry featuring Jordi debuted on Netflix.</p>
+                          </div>
+                          <div class="col-md-3 profile text-center">
+                                <div class="img-box">
+                                   <img src ="images/ClareSmyth.jpeg" class="img-responsive">
+                                    <ul>
+                                         <a href="#"><i class="fab fa-twitter"></i></a>
+                                         <a href="#"><i class="fab fa-facebook"></i></a>
+                                         <a href="#"><i class="fab fa-instagram"></i></a>
+                                     </ul>
+                                </div>
+                                <h2>Clare Smyth</h2>
+                                <h3> Chef</h3>
+                                    <p> Clare Smyth MBE is a Northern Irish chef. She is the Chef Patron of Core by Clare Smyth which opened in 2017 and received two Michelin stars as a new entry in the 2019 guide. S
+                                    he was Chef Patron at Restaurant Gordon Ramsay from 2012 to 2016</p>
+                          </div>
+                          <div class="col-md-3 profile text-center">
+                                <div class="img-box">
+                                   <img src ="images/Gordon Ramsay.jpg" class="img-responsive">
+                                    <ul>
+                                         <a href="#"><i class="fab fa-twitter"></i></a>
+                                         <a href="#"><i class="fab fa-facebook"></i></a>
+                                         <a href="#"><i class="fab fa-instagram"></i></a>
+                                     </ul>
+                                </div>
+                                <h2>Gordon Ramsay</h2>
+                                <h3> British Chef</h3>
+                                    <p> Gordon James Ramsay OBE is a British chef, restaurateur, writer, and television personality. He was born in Johnstone, Scotland, and raised in Stratford-upon-Avon, England. 
+                                    His restaurants have been awarded 16 Michelin stars in total and currently hold a total of seven.</p>
+                          </div>
+                   </div>
+                   <!--team ends-->
       <!-- Footer include -->
     <?php include 'includes/footer.php'; ?>
 </body>
