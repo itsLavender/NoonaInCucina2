@@ -39,7 +39,9 @@
                         <a href="../NoonaInCucina2/login/signup.php" class="nav-link">Sign up</a>
                     </li>
                     <?php endif; ?>
-
+                    <?php 
+                    echo $_SESSION['permission'];
+                    ?>
                 </ul>
             </nav>
         </div>
