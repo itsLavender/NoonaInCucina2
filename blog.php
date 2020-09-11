@@ -7,7 +7,7 @@
      <title>Nonna in Cucina</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">"
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="css/style.css">
 </head>
 <body>
     <!---- Header include -->
@@ -33,16 +33,39 @@
        </div>
    </section>
    <!--blog hero ends-->
-  <section class="blog">
-      <div class="blog-container">
-   <div class="box-container">
-       <div class="box-content">
-           <img src="">
-           </div>
-
-       </div>
-   </div>
-</section>
+<div class="blog-container">
+    <div class="box">
+        <div class="imgBox">
+        <img src="images/pasta.jpg">
+        </div>
+        <div class="detalis">
+            <div class="content">
+                <h2> Food </h2>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+    <div class="imgBox">
+        <img src="images/sweets.jpg">
+        </div>
+        <div class="detalis">
+            <div class="content">
+                <h2> Desserts </h2>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+    <div class="imgBox">
+        <img src="images/drink.jpg">
+        </div>
+        <div class="detalis">
+            <div class="content">
+                <h2> Drinks </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!--food categories ends-->
 <!-- Footer include -->
 <?php include 'includes/footer.php'; ?>
 </body>
