@@ -40,7 +40,7 @@
                     </li>
                     <?php endif; ?>
                     <?php 
-                    /*echo $_SESSION['permission'];*/
+                        echo $_SESSION['permission'];
                     ?>
                 </ul>
             </nav>

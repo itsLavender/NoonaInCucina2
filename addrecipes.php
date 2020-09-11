@@ -1,7 +1,10 @@
 <?php 
+    session_start();
+
+    if($_SESSION['permission'] == 1){
+        
     require 'includes/dbconnect.php';
 ?>
-
 <?php 
     if(isset($_POST['submit'])){
         $title = $_POST['title'];
@@ -43,5 +46,9 @@
                 <input type="submit" name = "submit" value = "Add recipe">
             </form>
         </div>
-         </body>
+
+<?php }else{
+    header("Location: index.php");
+    }?>
+    </body>
 </html>
