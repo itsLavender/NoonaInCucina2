@@ -32,4 +32,16 @@
            </div>
        </div>
    </section>
+   <!--blog hero ends-->
+  <section class="blog-container">
+   <div class="box-container">
+       <div class="box">
+           <img src=>
+
+       </div>
+   </div>
 </section>
+<!-- Footer include -->
+<?php include 'includes/footer.php'; ?>
+</body>
+</html>
