@@ -47,6 +47,7 @@
         <div class="detalis">
             <div class="content">
                 <h2> Food </h2>
+                <a href="addrecipes.php" class="btn cta-btn">Add</a>
             </div>
         </div>
     </div>
@@ -57,6 +58,7 @@
         <div class="detalis">
             <div class="content">
                 <h2> Desserts </h2>
+                <a href="addrecipes.php" class="btn cta-btn">Add</a>
             </div>
         </div>
     </div>
@@ -67,6 +69,7 @@
         <div class="detalis">
             <div class="content">
                 <h2> Drinks </h2>
+                <a href="addrecipes.php" class="btn cta-btn">Add</a>
             </div>
         </div>
     </div>
