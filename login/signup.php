@@ -18,9 +18,9 @@
         $query->bindParam('password', $password);
 
         if($query->execute()) {
-            $message = "Successfully created your account";
+            $message =  "Successfully created your account";
         } else {
-            $message = "A problem occurred creating your account";
+            $message =  "A problem occurred creating your account";
         }
     }
 ?>
