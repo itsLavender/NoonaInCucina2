@@ -48,9 +48,7 @@
     </div>
         <?php endforeach; ?>
    <!--blog hero ends-->
-<<<<<<< HEAD
 <!--<div class="blog-container">
-=======
 <section class="categories">
    <div class="global-headline">
         <h2 class="sub-headline">
@@ -58,7 +56,6 @@
         </h2>
        </div>
   <div class="blog-container">
->>>>>>> a009e22249994a551cfb4e9ca8bd954f066f78e2
     <div class="box">
         <div class="imgBox">
         <img src="images/pasta.jpg">
@@ -92,12 +89,9 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-</div>-->
-=======
 </div>
-</section>
->>>>>>> a009e22249994a551cfb4e9ca8bd954f066f78e2
+</div>
+</section>-->
 <!--food categories ends-->
 <!-- Footer include -->
 <?php include 'includes/footer.php'; ?>
