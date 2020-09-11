@@ -27,17 +27,16 @@
                     <li class="nav-item">
                         <a href="contactus.php" class="nav-link">Contact</a>
                     </li>
-                    <?php if(isset($_SESSION['name'])):?>
-                       
+                    <?php if(isset($_SESSION['name'])): ?>
                     <li class="nav-item">
-                        <a href="../login/logout.php" class="nav-link">Logout</a>
+                        <a href="../NoonaInCucina2/login/logout.php" class="nav-link">Logout</a>
                     </li>
                     <?php else: ?>
                     <li class="nav-item">
-                        <a href="../login/login.php" class="nav-link">Login</a>
+                        <a href="../NoonaInCucina2/login/login.php" class="nav-link">Log in</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../login/signup.php" class="nav-link">Register</a>
+                        <a href="../NoonaInCucina2/login/signup.php" class="nav-link">Sign up</a>
                     </li>
                     <?php endif; ?>
 
