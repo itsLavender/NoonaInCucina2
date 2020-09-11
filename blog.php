@@ -48,7 +48,17 @@
     </div>
         <?php endforeach; ?>
    <!--blog hero ends-->
+<<<<<<< HEAD
 <!--<div class="blog-container">
+=======
+<section class="categories">
+   <div class="global-headline">
+        <h2 class="sub-headline">
+           <h1 class="recipe-headline headline-dark">Some of our food categories</h1>
+        </h2>
+       </div>
+  <div class="blog-container">
+>>>>>>> a009e22249994a551cfb4e9ca8bd954f066f78e2
     <div class="box">
         <div class="imgBox">
         <img src="images/pasta.jpg">
@@ -56,6 +66,7 @@
         <div class="detalis">
             <div class="content">
                 <h2> Food </h2>
+                <a href="addrecipes.php" class="btn cta-btn">Add</a>
             </div>
         </div>
     </div>
@@ -66,6 +77,7 @@
         <div class="detalis">
             <div class="content">
                 <h2> Desserts </h2>
+                <a href="addrecipes.php" class="btn cta-btn">Add</a>
             </div>
         </div>
     </div>
@@ -76,10 +88,16 @@
         <div class="detalis">
             <div class="content">
                 <h2> Drinks </h2>
+                <a href="addrecipes.php" class="btn cta-btn">Add</a>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </div>-->
+=======
+</div>
+</section>
+>>>>>>> a009e22249994a551cfb4e9ca8bd954f066f78e2
 <!--food categories ends-->
 <!-- Footer include -->
 <?php include 'includes/footer.php'; ?>
