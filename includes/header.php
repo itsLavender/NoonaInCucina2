@@ -19,7 +19,7 @@
                         <a href="aboutus.php" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link">Recipes</a>
+                        <a href="recipes.php" class="nav-link">Recipes</a>
                     </li>
                     <li class="nav-item">
                         <a href="index.php" class="nav-link">Gallery</a>
