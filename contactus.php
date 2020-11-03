@@ -19,6 +19,7 @@
 <!--contact hero ends-->
 <section class="contact-form">
     <div class="contact-container">
+    <form class="contact-form" method="POST" action = "contactus.php">
         <div class="contact-box">
             <div class="contact-left"></div>
             <div class="contact-right">
@@ -30,6 +31,7 @@
                 <button class="contact-btn">Send</button>
             </div>
         </div>
+        </form>
     </div>
 </section>
     <!-- Footer include -->
