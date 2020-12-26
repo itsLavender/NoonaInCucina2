@@ -35,7 +35,7 @@
         <div class="container">
             <h1 class="label">Add new recipe</h1>
             <form class="addrecipes_form" method="POST" action = "addrecipes.php">
-                <div class="font">Title</div>
+                <div class="font">Recipe Name</div>
                 <input type="text" name="title"><br>
                 <div class="font">Ingredients:</div>
                 <textarea name="body" rows="4" cols="50" placeholder="Recipe ingredients"></textarea><br>
@@ -44,6 +44,7 @@
                 <div class="font ">Category</div>
                 <input type="text" name="kategoria">  <br>             
                 <input type="submit" name = "submit" value = "Add recipe">
+                <a href="../NoonaInCucina2/blog.php" class="btn back-to-blog">Back to blog</a>
             </form>
         </div>
 

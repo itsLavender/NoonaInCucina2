@@ -93,7 +93,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                        Repudiandae quod molestias sapiente porro nobis sint, ad aliquam quisquam cupiditate dignissimos cum omnis nulla modi possimus, debitis quidem, facere est! Ipsa.
                     </p>
-                    <a href="" class="btn body-btn">View the recipes</a>
+                    <a href="recipes.php" class="btn body-btn">View the recipes</a>
                </div>
            </div>
        </div>
@@ -128,7 +128,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laudantium quaerat expedita, a exercitationem quo ea vel excepturi nemo totam, praesentium rem ratione, velit ipsa. 
                     Quas quos praesentium mollitia cupiditate!
                  </p>
-                 <a href="" class="btn body-btn">Explore</a>
+                 <a href="blog.php" class="btn body-btn">Explore</a>
             </div>
             <div class="image-group">
                 <img class="animate-top" src="images/delight-group-1.jpg" alt="">
