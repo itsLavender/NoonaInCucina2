@@ -43,6 +43,29 @@ body{
 .addrecipes_form .font2{
     margin-top: 30px;
 }
+.btnn{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right:-2px;
+}
+
+.back-to-blog{
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: .4rem;
+    transition: background-color .5s;
+
+}
+
+.back-to-blog:hover,
+.back-to-blog:focus{
+    color: #fff;
+    background-color: var(--secondary-font-color) ;
+}
+
 /*.addrecipes_form p{
     font-size: 18px;
     color: #130f40;

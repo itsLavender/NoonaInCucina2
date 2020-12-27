@@ -44,7 +44,7 @@
                 <div class="font ">Category</div>
                 <input type="text" name="kategoria">  <br>             
                 <input type="submit" name = "submit" value = "Add recipe">
-                <a href="../NoonaInCucina2/blog.php" class="btn back-to-blog">Back to blog</a>
+                <a href="../NoonaInCucina2/blog.php" class="btnn back-to-blog">Back to blog</a>
             </form>
         </div>
 
