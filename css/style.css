@@ -689,7 +689,7 @@ h1::after{
     transform: scaleY(0);
     transition:transform .5s ;
 }
-.blog-container .box:hover .detalis{
+.blog-container .box:hover .detalis{`
     transform: scaleY(1);
 
 }
@@ -705,6 +705,30 @@ h1::after{
     padding: 0;
     font-size: 20px;
     color: #fff ;
+}
+/*how to*/
+.howto-vid video{
+    display: block;
+    margin: 0 -300px;
+    padding: 30px 30px;  
+}
+.howto-vid article h3{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:200;
+    color:#111;
+    text-transform: uppercase;  
+    padding-bottom: 20px; 
+}
+.howto-vid article div p{
+    font-family: 'Spartan', sans-serif;
+    font-size:16px;
+    font-weight:200;
+    line-height: 24px;
+    color:#111;
+    text-transform: uppercase;
+    column-count: 3;
+    column-gap: 30px;
 }
 /*footer*/
 footer{
