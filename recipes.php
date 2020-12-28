@@ -36,12 +36,12 @@
         <div class="blog-info">
             <div class="blog-description padding-right animate-left">
                 <div class="global-headline">
-                    <h1 class="recipe-headline headline-dark">Fried eggs with ham</h1>
+                    <h1 class="recipe-headline headline-dark">Fried eggs with ham and rice</h1>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laudantium quaerat expedita, a exercitationem quo ea vel excepturi nemo totam, praesentium rem ratione, velit ipsa. 
                     Quas quos praesentium mollitia cupiditate!
                  </p>
-                 <a href="aboutus.html" class="btn body-btn">Read More</a>
+                 <a href="howto.php" class="btn body-btn">Read More</a>
             </div>
             <div class="blog-info-img animte-right">
                 <img src="images/eggs.jpg" alt="">
