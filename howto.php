@@ -17,9 +17,9 @@
    <section class="recipes-hero" id="recipes-hero">
     <div class="container">
         <h2 class="sub-headline">
-            <span class="first-letter">H</span>ow To
+            <span class="first-letter">H</span>ow to
         </h2>
-        <h1 class="headline">Fried eggs with ham and rice</h1>
+        <h1 class="headline">Step by step</h1>
         <div class="headline-description">
             <div class="seperator">
                 <div class="line line-left"></div>
@@ -30,20 +30,21 @@
         </div>
     </div>
 </section>
-<!--how-to-video-->
-<section class="howto-vid">
+<!--video sec-->
+<section class="recipe-vid">
             <div class="wrapper">
+                 <h2>Fried eggs with ham and rice</h2>
                 <video src="Video/bacon-and-egg-fried-rice.mp4"  controls></video>
                 <article>
-                <h3>Step by step</h3>
+                <h3>Ingredients for 3 servings</h3>
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    
                     </div>
                 </article>
+                
                 </div>
             </section>
-
 
     <!-- Footer include -->
     <?php include 'includes/footer.php'; ?>

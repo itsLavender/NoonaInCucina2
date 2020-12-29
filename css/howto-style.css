@@ -1,0 +1,31 @@
+.recipe-vid h2{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:200;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+}
+.recipe-vid video{
+    display: block;
+    margin: 0 -300px;
+    padding: 30px 30px;  
+}
+.recipe-vid article h3{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:200;
+    color:#111;
+    text-transform: uppercase;  
+    padding-bottom: 20px; 
+}
+.recipe-vid article div p{
+    font-family: 'Spartan', sans-serif;
+    font-size:16px;
+    font-weight:200;
+    line-height: 24px;
+    color:#111;
+    text-transform: uppercase;
+    column-count: 3;
+    column-gap: 30px;
+}

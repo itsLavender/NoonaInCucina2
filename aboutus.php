@@ -48,7 +48,7 @@
                      With their unique cooking skills and techniques, they left a footprint in the cooking industry.
                      With that lead, this food blog now gathers recipes from most of the existing cuisines in the world.
                  </p>
-                 <a href="gallery.html" class="btn body-btn">Explore</a>
+                 <a href="blog.php" class="btn body-btn">Explore</a>
             </div>
             <div class="blog-info-img animte-right">
                 <img src="images/giude-101.jpg" alt="">
